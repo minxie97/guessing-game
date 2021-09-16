@@ -5,7 +5,7 @@ while (!identity) {
     identity = prompt('Ok but actually what is your name?')
 }
 
-console.log('Nice to meet you ' + identity + '! Thank you for visiting my site!');
+// console.log('Nice to meet you ' + identity + '! Thank you for visiting my site!');
 alert('Nice to meet you ' + identity + '! Thank you for visiting my site!');
 
 let consent = prompt('I made a little quiz about myself, would you like to take it?');
@@ -77,9 +77,9 @@ if(consent.toLowerCase() == 'yes' || consent.toLowerCase() == 'y'){
     }
     //Shout out Audrey and my roommate Ahsan for helping me with this^
         
-console.log('You are all done ' + identity + '! Thanks for taking the quiz!');
-alert('You are all done ' + identity + '! Thanks for taking the quiz!');
-alert('You got ' + score + ' out of 7 points!');
+    // console.log('You are all done ' + identity + '! Thanks for taking the quiz!');
+    alert('You are all done ' + identity + '! Thanks for taking the quiz!');
+    alert('You got ' + score + ' out of 7 points!');
 
 } else if(consent.toLowerCase() == 'no' || consent.toLowerCase() == 'n'){
     // console.log('I mean I don\'t blame you ' + identity + ', who would choose to do a quiz voluntarily?');
