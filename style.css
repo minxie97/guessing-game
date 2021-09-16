@@ -5,10 +5,9 @@ body {
 
 header {
     text-align: center;
-    border: thin solid wheat;
-    border-radius: 50%;
+    border: thick solid wheat;
 }
 
-main {
+h2 {
     text-align: center;
 }
