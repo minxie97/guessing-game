@@ -86,6 +86,7 @@ if(consent.toLowerCase() == 'yes' || consent.toLowerCase() == 'y'){
     alert('I mean I don\'t blame you ' + identity + ', who would choose to do a quiz voluntarily?');
     }
 
+
     
 
 
